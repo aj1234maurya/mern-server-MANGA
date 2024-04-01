@@ -4,8 +4,7 @@ dotenv.config();
 import cookieParser from "cookie-parser";
 import cors from "cors";
 import connectDB from "./db.js";
-// import bodyParser from "body-parser";
-// import MangaRouter from "./routes/router.js";
+
 import MangaRouter from "./routes/index.js";
 import path from "path";
 
